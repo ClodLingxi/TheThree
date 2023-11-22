@@ -1,0 +1,19 @@
+.view-chooser {
+    border: 3rpx solid lightgray;
+    border-radius: 10rpx;
+    margin: 10rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: lightgray;
+}
+
+.text {
+    height: 10rpx;
+}
+
+.t-button {
+    --td-button-extra-small-height: 50rpx;
+    --td-button-default-bg-color: rgb(0, 0, 0, 0);
+    --td-button-border-width: 0
+}

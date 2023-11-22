@@ -1,0 +1,64 @@
+<view class="main-view">
+    <t-image class="image" height="300rpx"></t-image>
+    <scroll-view class="view-information" scroll-y="true">
+
+        <view class="view-food">
+            <text class="text-title">Title</text>
+            <text class="text-description">Description</text>
+        </view>
+
+        <t-divider class="divider"></t-divider>
+
+        <view class="view-spices">
+
+            <view class="unit-spices">
+                <text class="text-description">Sugar</text>
+                <view class="spices-tabs">
+                    <t-tabs defaultValue="{{0}}" theme="tag" space-evenly="{{false}}" split="{{false}}">
+                        <t-tab-panel wx:for="{{4}}" wx:key="index" label="选项" value="{{index}}" class="spices-swapper" />
+                    </t-tabs>
+                </view>
+            </view>
+
+            <view class="unit-spices">
+                <text class="text-description">Sugar</text>
+                <view class="spices-tabs">
+                    <t-tabs defaultValue="{{0}}" theme="tag" space-evenly="{{false}}" split="{{false}}">
+                        <t-tab-panel wx:for="{{4}}" wx:key="index" label="选项" value="{{index}}" class="spices-swapper" />
+                    </t-tabs>
+                </view>
+            </view>
+
+            <view class="unit-spices">
+                <text class="text-description">GG</text>
+                <view class="spices-chooser">
+                    <chooser class="chooser" label="鸡块" max_num="3"></chooser>
+                    <chooser class="chooser" label="热狗" max_num="4"></chooser>
+                    <chooser class="chooser" label="鸡块" max_num="3"></chooser>
+                    <chooser class="chooser" label="热狗" max_num="4"></chooser>
+                </view>
+
+
+            </view>
+
+
+        </view>
+
+    </scroll-view>
+
+    <view class="view-purchase">
+        <view class="view-info">
+            <view class="text-count">
+                <view class="text-title">10</view>
+                <view class="text-description">contest</view>
+            </view>
+            <t-stepper class="t-stepper-swapper" defaultValue="1" theme="filled" />
+        </view>
+
+        <view class="view-button">
+            <t-button class="button-swapper">GG</t-button>
+            <t-button class="button-swapper">GG</t-button>
+        </view>
+    </view>
+</view>
+

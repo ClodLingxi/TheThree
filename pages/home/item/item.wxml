@@ -1,0 +1,17 @@
+<view class="main-container">
+    <view class="view-title">
+        <t-image class="image-title" src="{{'https://tdesign.gtimg.com/miniprogram/images/image1.jpeg'}}" mode="aspectFill" width="72" height="72" align="top"/>
+    </view>
+    <view class="view-content">
+        <text class="text-title">{{title}}</text>
+        <text class="text-desc">{{description}}</text>
+        <view class="item-bottom">
+            <text class="text-count">{{count}}</text>
+            <t-button class="button-choose" theme="primary" shape="round" size="extra-small" bind:tap="onClick">选规格</t-button>
+        </view>
+    </view>
+</view>
+
+<t-popup class="popup" visible="{{visible}}" bind:visible-change="onVisibleChange" placement="bottom">
+    <pop/>
+</t-popup>

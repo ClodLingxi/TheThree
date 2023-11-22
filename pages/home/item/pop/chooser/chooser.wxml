@@ -1,0 +1,5 @@
+<view class="view-chooser">
+    <t-button class="t-button" size="extra-small" custom-dataset="{{ {val:false} }}" bind:tap="onClick">-</t-button>
+    <text class="text">{{label}}: {{value}}</text>
+    <t-button class="t-button" size="extra-small" custom-dataset="{{ {val:true} }}" bind:tap="onClick">+</t-button>
+</view>

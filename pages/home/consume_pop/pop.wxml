@@ -1,0 +1,5 @@
+<view class="main-view">
+    <t-image class="image" height="300rpx"></t-image>
+
+</view>
+

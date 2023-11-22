@@ -1,0 +1,10 @@
+{
+    "component": true,
+    "usingComponents": {
+        "t-fab": "/miniprogram_npm/tdesign-miniprogram/fab/fab",
+        "t-tabs": "/miniprogram_npm/tdesign-miniprogram/tabs/tabs",
+        "t-tab-panel": "/miniprogram_npm/tdesign-miniprogram/tab-panel/tab-panel",
+        "t-stepper": "/miniprogram_npm/tdesign-miniprogram/stepper/stepper",
+        "chooser": "/pages/home/item/pop/chooser/chooser"
+    }
+}

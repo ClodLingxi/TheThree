@@ -1,0 +1,106 @@
+.main-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    border: 10rpx;
+    border-radius: 10rpx;
+}
+
+.view-information {
+    margin: 15rpx;
+    height: 450rpx;
+    display: flex;
+    flex-direction: column;
+}
+.view-food {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.text-description {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.divider {
+    margin: 20rpx;
+}
+
+.view-spices {
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.unit-spices {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.spices-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spices-chooser{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.spices-chooser .chooser{
+    flex: 1;
+    width: calc((100% - 10rpx) / 2);
+    min-width: calc((100% - 10rpx) / 2);
+    max-width: calc((100% - 10rpx) / 2);
+}
+
+.spices-swapper {
+    --td-tab-track-radius: 411rpx
+}
+
+.view-purchase {margin: unset;
+    padding: 15rpx;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 -5rpx 5rpx rgb(128, 128, 128);
+}
+
+.view-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-count {
+    display: flex;
+    flex-direction: column;
+}
+
+.t-stepper-swapper {
+    justify-content: flex-end;
+    margin-left: auto;
+    align-self: center;
+}
+
+.view-button {
+    display: flex;
+    flex-direction: row;
+    height: 300rpx;
+    justify-content: space-between;
+}
+
+.button-swapper {
+    margin: unset;
+    width: 47%;
+}

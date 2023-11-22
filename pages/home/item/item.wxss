@@ -1,0 +1,56 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20rpx;
+}
+
+.view-title {
+    padding-left: 10px;
+}
+
+.image-title {
+    margin-top: 5px;
+}
+
+.view-content {
+    display: flex;
+    flex-direction: column;
+    vertical-align: bottom;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.text-title {
+    font-size: 30rpx;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.text-desc {
+    font-size: 28rpx;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.item-bottom {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.text-count {
+    font-size: 28rpx;
+    font-weight: 700;
+    color: red;
+}
+
+.button-choose {
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+    horiz-align: right;
+    --td-button-extra-small-padding-horizontal: 10px;
+}
+
+.popup {
+    height: 1000rpx;
+}

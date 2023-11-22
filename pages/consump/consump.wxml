@@ -1,0 +1,32 @@
+<view class="main">
+    <view class="main-view">
+        <view class="view-location tap-view">
+            <view class="view-loc">
+                <text class="large-text">三间小吃店</text>
+            </view>
+            <view class="view-time">
+                <text class="small-text">预约时间</text>
+                <t-button class="button-time">立即取餐</t-button>
+            </view>
+        </view>
+
+        <view class="view-cost tap-view">
+            <view class="view-foods"/>
+            <view class="view-money">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="payment tap-view">
+            <t-radio-group class="tap-view" defaultValue="radio1">
+                <t-radio value="radio1" label="单选" placement="right"/>
+                <t-radio value="radio2" label="单选" placement="right" />
+            </t-radio-group>
+        </view>
+
+        <view class="view-information tap-view">
+            <view class="phone"></view>
+            <view class="note"></view>
+        </view>
+    </view>
+</view>
